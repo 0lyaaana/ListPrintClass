@@ -21,15 +21,25 @@
 	ul {
 		list-style-type: none;
 		width: 500px;
-		height: 530px;
+		height: 470px;
 		border-radius: 5px;
 		background-color: rgba(0, 0, 0, 0.1);
 		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 	
 	ul > li {
 		height: 25px;
 		background-color: white;
+		width: 500px;
+		display: flex;
+		justify-content: space-between; /* li 안 내용 양쪽 끝으로 배치 */
+		align-items: center;
+		position: relative;
+		top: 1.5px;
+		left: -25px;
 	}
 	
 	.bonus {
@@ -41,7 +51,7 @@
 		border: 1px solid gray;
 		border-radius: 5px;
 		width: 500px;
-		padding: 10px;
+		padding : 5px;
 		margin: 5px auto;
 		display: flex;
 		
@@ -59,6 +69,8 @@
 	
 	.link {
 		text-align: center;
+		font-size: 12px;
+		padding: 20px;
 	}	
 
 </style>

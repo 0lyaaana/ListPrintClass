@@ -137,8 +137,8 @@ for(int i = 0; i < bookList.size(); i++){
 </table>
 
 <div class="hLink">
-<a href="/bookListJSTL.jsp" target="_blank">도서 리스트</a>
-<a href="/lottoNumListJSTL.jsp" target="_blank">로또 당첨 번호 리스트</a>
+<a href="bookListJSTL.jsp" target="_blank">도서 리스트</a>
+<a href="lottoNumListJSTL.jsp" target="_blank">로또 당첨 번호 리스트</a>
 </div>
 </body>
 </html>
